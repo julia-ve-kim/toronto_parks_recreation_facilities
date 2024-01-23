@@ -1,8 +1,9 @@
 #### Preamble ####
-# Purpose: Clean Parks & Recreation projects data, ward profile data 
+# Purpose: Clean Parks & Recreation facilities projects data, ward profile data 
 # Author: Julia Kim 
 # Data: 19 January 2023
 # Contact: juliaym.kim@mail.utoronto.ca
+# License: MIT 
 # Pre-requisites: 
  # 00-download_data.R
  # 03-helper_functions.R 
