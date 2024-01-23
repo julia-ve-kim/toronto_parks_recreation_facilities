@@ -4,10 +4,12 @@
 # Author: Julia Kim
 # Date: 19 January 2023
 # Email: juliaym.kim@mail.utoronto.ca
+# License: MIT 
 # Prerequisites: none
 # Datasets:
   # P&R from https://open.toronto.ca/dataset/park-and-recreation-facility-projects/  
   # Ward profile data from https://open.toronto.ca/dataset/ward-profiles-25-ward-model/ 
+
 #### Workspace setup ####
 install.packages("tidyverse")
 install.packages("opendatatoronto")
@@ -30,7 +32,7 @@ raw_ward_profile_data <-
   filter(id == "16a31e1d-b4d9-4cf0-b5b3-2e3937cb4121") |> 
   get_resource()
 
-write_csv (
+write_csv(
   x = as.data.frame(raw_ward_profile_data[1]), # write data for first tab "2021 One Variable"  
   file = "inputs/data/raw_ward_data.csv"
 )
