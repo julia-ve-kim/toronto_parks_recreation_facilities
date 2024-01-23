@@ -12,7 +12,7 @@ The repo is structured as follows:
 -   `input/llm` contains the entire chat history with LLM CHATGPT-3.5 
 -   `input/sketches` contains brief sketches of potential datasets and tables used in the planning stage of this report. 
 -   `outputs/paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
--   `scripts` contains the R scripts used to simulate, download and clean data. Helper functions used in these scripts is also included. 
+-   `scripts` contains the R scripts used to simulate (`00-simulate_data.R`), download (`01-download_data.R`) and clean data (`02-data_cleaning.R`). Helper functions (`03-helper_functions.R`) used in these scripts is also included. 
 
 ## LLM Usage  
 
