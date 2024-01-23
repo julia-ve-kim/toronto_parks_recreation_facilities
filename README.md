@@ -16,4 +16,4 @@ The repo is structured as follows:
 
 ## LLM Usage  
 
-No auto-complete tools such as co-pilot were used in the course of this project. CHATGPT-3.5 was used briefly on a single occasion, on January 20, 2024, in order to determine an appropriate title for this report. However, CHATGPT-3.5 failed to give an adequate title, so the title was chosen by the author without further aid. 
+No auto-complete tools such as co-pilot were used in the course of this project. CHATGPT-3.5 was used briefly on a single occasion, on January 20, 2024, in order to determine an appropriate title for this report and a more brief way to retitle a subsection header. However, CHATGPT-3.5 failed to give an adequate title on both occasions, so revised titles were chosen by the author without further aid. 
