@@ -1,8 +1,10 @@
 #### Preamble ####
-# Purpose: Simulate dataset of Parks & Recreation Facility Projects across Toronto
+# Purpose: Simulate Parks & Recreation Facility Projects dataset across Toronto
 # Author: Julia Kim 
 # Data: 9 January 2023
 # Email: juliaym.kim@mail.utoronto.ca
+# License: MIT 
+# Prerequisites: None 
 
 #### Workspace setup ####
 library(tidyverse)
@@ -23,6 +25,7 @@ project_type <- c("New Park", "New Community Centre", "Facility Improvements",
 # set number of observations and simulate dataset 
 num_observations = 200
 
+set.seed(853) # reset seed for reproducibility
 sim_facilities_data <- 
   tibble(
     project_num = c(1:num_observations),
