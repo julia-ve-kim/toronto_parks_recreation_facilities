@@ -4,6 +4,7 @@
 # Date: 19 January 2023
 # Email: juliaym.kim@mail.utoronto.ca
 # Prerequisites: none
+# License: MIT 
 
 #### Workspace setup ####
 library(opendatatoronto)
