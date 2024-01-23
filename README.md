@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo contains the data and code for the analysis of the distribution of Toronto's Parks and Recreation Facilities (PRF) Projects across the 25 municipal wards in Toronto. Using the Parks and Facilities Project and the 2021 Census data, pulled from the City of Toronto Open Data Portal, it investigates the relationship between the number of projects with the proportions of visible minorities and of low-income private households per ward. There is a a moderately negative, significant correlation between the number of projects and proportion of visible minorities, and no significant correlation  etween number of projects and proportion of low-income private households. This finding supports the hypothesis of racial disparities in the access to public sustainable urban development initiatives across Toronto.
+This repo contains the data and code for the analysis of the distribution of Toronto's Parks and Recreation Facilities (PRF) Projects across the 25 municipal wards in Toronto. Using the Parks and Facilities Project and the 2021 Census data, pulled from the City of Toronto Open Data Portal, it investigates the relationship between the number of projects with the proportions of visible minorities and of low-income private households per ward. There is a moderately negative, significant correlation between the number of projects and proportion of visible minorities, but no significant correlation discovered between number of projects and proportion of low-income private households. This finding supports the hypothesis of racial disparities in access to sustainable urban development initiatives across Toronto.
 
 ## File Structure
 
