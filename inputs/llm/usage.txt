@@ -29,3 +29,9 @@ ChatGPT
 I appreciate the clarification. How about this revised title:
 
 "Racial Disparities in Toronto's Parks and Facilities Projects: A Ward-Based Analysis"
+
+User
+How to make this title of the subsection of my report clearer and briefer: "Relationship between the Number of Projects and the Visible Minority Population Percentage per Ward"?
+
+ChatGPT 
+"Project Count vs. Minority Population Percentage by Ward"
