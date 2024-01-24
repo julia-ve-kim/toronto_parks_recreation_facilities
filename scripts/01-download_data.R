@@ -11,8 +11,6 @@
   # Ward profile data from https://open.toronto.ca/dataset/ward-profiles-25-ward-model/ 
 
 #### Workspace setup ####
-install.packages("tidyverse")
-install.packages("opendatatoronto")
 library(opendatatoronto)
 library(tidyverse)
 
