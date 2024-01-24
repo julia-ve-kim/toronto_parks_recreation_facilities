@@ -39,13 +39,6 @@ cleaned_facilities_data <-
     project_type
   )
 
-# jumble up the rows of the data so we get a better representative sample
-# when we display the first five rows
-# set seed for reproducibility
-set.seed(853)
-cleaned_facilities_data <- 
-  cleaned_facilities_data[sample(nrow(cleaned_facilities_data)), ]
-
 ## Ward profile data ## 
 ## extract ward total population, minority population, low income population 
 # initialize a list to store results
