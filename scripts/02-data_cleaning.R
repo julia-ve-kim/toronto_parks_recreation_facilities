@@ -44,8 +44,8 @@ cleaned_facilities_data <-
 # initialize a list to store results
 ward_population_lst <- list()
 # loop through rows 18 (total population),  1285 (total minority), 
-# 1400 (total in low income)
-for (row_index in c(18, 1016, 1285, 1288)) {
+# 1400 (total in low income private household earners)
+for (row_index in c(18, 1285, 1400)) {
   ward_population_lst[[as.character(row_index)]] <- 
     calculate_population(row_index, raw_ward_profile_data)
 }
