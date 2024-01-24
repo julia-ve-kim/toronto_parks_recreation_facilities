@@ -6,7 +6,7 @@
 # Contact: juliaym.kim@mail.utoronto.ca
 # License: MIT 
 # Pre-requisites: 
- # 00-download_data.R
+ # 01-download_data.R
  # 03-helper_functions.R 
 
 #### Workspace setup ####
