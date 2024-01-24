@@ -98,10 +98,10 @@ max(cleaned_ward_profile_data$low_income_population) < 200000
 #### Write cleaned dataset to file ####
 write_csv(
   x = cleaned_facilities_data,
-  file = "inputs/data/cleaned_facilities_data.csv"
+  file = "outputs/data/cleaned_facilities_data.csv"
 )
 
 write_csv(
   x = cleaned_ward_profile_data,
-  file = "inputs/data/cleaned_ward_profile_data.csv"
+  file = "outputs/data/cleaned_ward_profile_data.csv"
 )
