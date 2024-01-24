@@ -80,8 +80,8 @@ ggplot(sim_cleaned_facilities_data, aes(x = minority_proportion,
 unique(sim_facilities_data$type) == c("New Park", "New Community Centre", 
                                       "Master Plan or Study", "Facility Improvements")
 
-# check there are 25 wards in the area
-length(unique(sim_cleaned_facilities_data$ward)) == 25 
+# check there are 25 wards in the area and they run from 1 to 25
+all(sort(unique(sim_cleaned_facilities_data$ward)) == 1:25)
 # also validate that "ward" is an integer 
 sim_cleaned_facilities$ward |> class() == "integer"
   
