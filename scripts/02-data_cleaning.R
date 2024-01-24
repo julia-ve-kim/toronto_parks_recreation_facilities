@@ -1,5 +1,6 @@
 #### Preamble ####
-# Purpose: Clean Parks & Recreation facilities projects data, ward profile data 
+# Purpose: Clean Parks & Recreation facilities projects and ward profile data, 
+# and validate these cleaned datasets using basic tests 
 # Author: Julia Kim 
 # Data: 19 January 2023
 # Contact: juliaym.kim@mail.utoronto.ca
