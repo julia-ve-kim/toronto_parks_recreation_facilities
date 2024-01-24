@@ -37,6 +37,14 @@ cleaned_facilities_data <-
     ward_name,
     ward_number,
     project_type
+  ) |> 
+  mutate(
+    project_type = case_when(
+      project_type == "Master Plan or Study" ~ "Master Plan",
+      project_type == "New Community Recreation Centre" ~ "New Rec. Centre",
+      project_type %in% c("Playground Improvements", "Park or Facility Improvements") ~ "Facility Upgrade",
+      TRUE ~ project_type
+    )
   )
 
 ## Ward profile data ## 
