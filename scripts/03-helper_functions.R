@@ -6,9 +6,6 @@
 # Prerequisites: none
 # License: MIT 
 
-#### Workspace setup ####
-library(opendatatoronto)
-
 ## Function to calculate the population 
 # referenced code from https://github.com/christina-wei/INF3104-1-Covid-Clinics/blob/main/scripts/01-data_cleaning.R 
 calculate_population <- function(row_index, raw_data) {
