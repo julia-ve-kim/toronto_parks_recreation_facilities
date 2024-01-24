@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Simulate Parks & Recreation Facility Projects dataset across Toronto
+# Purpose: Simulate and make simulated graphs of Parks & Recreation Facility Projects dataset across Toronto
 # Author: Julia Kim 
 # Data: 9 January 2023
 # Email: juliaym.kim@mail.utoronto.ca
@@ -49,7 +49,7 @@ sim_cleaned_facilities_data <- sim_facilities_data |>
     by = "ward"
   ) # add ward population and ward minority proportions to dataset 
 
-## Create graphs of simulated datasets 
+## Create graphs of simulated datasets for visualisation (not required, just a bonus)
 # Create stacked bar graph of number of projects per ward, coloured by
 # project type 
 ggplot(sim_facilities_data, aes(x = as.factor(ward), fill = type)) +
@@ -77,15 +77,14 @@ ggplot(sim_cleaned_facilities_data, aes(x = minority_proportion,
 ## Data validation
 # check that project "type" is exclusively one of these four: "New Park", 
 # "New Community Centre", "Facility Improvements", "Master Plan or Study" 
-sim_facilities_data$type |>
-  unique() == c("New Park", "New Community Centre", "Master Plan or Study", 
-                "Facility Improvements")
+unique(sim_facilities_data$type) == c("New Park", "New Community Centre", 
+                                      "Master Plan or Study", "Facility Improvements")
 
-# check there are 25 wards in the area 
-sim_cleaned_facilities_data$ward |>
-  unique() |>
-  length() == 25 
-
+# check there are 25 wards in the area
+length(unique(sim_cleaned_facilities_data$ward)) == 25 
+# also validate that "ward" is an integer 
+sim_cleaned_facilities$ward |> class() == "integer"
+  
 # check the population for each ward is a value somewhere 
 # between 20000 and 50000, and is an integer 
 sim_cleaned_facilities_data$population |> min() >= 20000
