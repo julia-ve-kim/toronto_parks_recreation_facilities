@@ -70,8 +70,8 @@ cleaned_facilities_data$project_type |>
   unique() == c("New Park", "Master Plan or Study", 
                 "Park or Facility Improvements",  "Playground Improvements",
                 "New Community Recreation Centre")
-# check there are 25 wards in the area 
-length(unique(cleaned_facilities_data$ward_number)) == 25  
+# check there are 25 wards in the area and they run from 1 to 25
+all(sort(unique(cleaned_facilities_data$ward)) == 1:25)
 
 ### cleaned_ward_profile_data 
 # check data types 
